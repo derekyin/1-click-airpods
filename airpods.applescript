@@ -8,9 +8,6 @@ tell application "System Events"
 				click
 				if exists menu item "Connect" of menu 1 then
 					click menu item "Connect" of menu 1
-					return "Connecting..."
-				else
-					click bluetooth
 				end if
 			end tell
 		end tell
